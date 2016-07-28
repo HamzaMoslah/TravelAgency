@@ -1180,7 +1180,7 @@ ul#flexiselDemo1 li a h4:hover{
 /*-- footer-bottom-grids --*/
 .footer-bottom-grids{
     padding:0 0 2em 0;
-    background: #F4F7F9;
+    background: #FFF;
 }
 .footer-bottom-top-grids{
     background: #FFF;
@@ -1252,22 +1252,7 @@ ul#flexiselDemo1 li a h4:hover{
 .a-cards ul li:nth-child(2){
 	margin:0 1em;
 }		
-.copyright{
-    padding: 2em 0 0 0;
-    text-align: center;
-}
-.copyright p{
-	font-size:.9em;
-	color:#777;
-	margin:0;
-}
-.copyright p a{
-	color:#777;
-	text-decoration:none;
-}
-.copyright p a:hover{
-    color: #6FD508;
-}
+
 /*-- about --*/
 .about-facts {
     padding: 1em 0 0 0;
