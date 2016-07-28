@@ -2286,6 +2286,14 @@ span.menu {
 		border-bottom: none;
 		left: 0;
 	}
+	.top-nav ul li ul{
+	    padding: 0;
+		margin: 0;
+		z-index: 999;
+		width: 70%;
+		border-bottom: none;
+		left: 10%;
+	}
 	.top-nav ul.nav1 li {
 		display: block;
 		text-align: center;
