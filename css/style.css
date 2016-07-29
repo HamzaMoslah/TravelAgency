@@ -748,7 +748,6 @@ select option{
     box-shadow: 0 0px 1px #CECECE;
 }
 .banner-bottom-info h3{
-	display:inline;
     color: #292929;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -867,7 +866,7 @@ li.button a span{
 .choose,.top-destinations-grids,.news-grids{
     margin: 2em 0;
 }
-.choose-info h4,.top-destinations-info h4,.news-grids-info h4,.holidays-info h4{
+.choose-info h4,.top-destinations-info h4,.news-grids-info h4,.holidays-info h4,.banner-bottom-info h4{
     color: #292929;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
