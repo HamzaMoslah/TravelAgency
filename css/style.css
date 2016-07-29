@@ -748,6 +748,7 @@ select option{
     box-shadow: 0 0px 1px #CECECE;
 }
 .banner-bottom-info h3{
+	display:inline;
     color: #292929;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
