@@ -1911,6 +1911,12 @@ span.starTextLabel {
     width: 70%;
     padding: 1em 0;
 }
+.p-right-img12 a{
+    background: url(../images/omrasingle.jpg) no-repeat 0px 0px;
+    min-height: 150px;
+    background-size: cover;
+	display: block;
+}
 .p-right-img a{
     background: url(../images/p1.jpg) no-repeat 0px 0px;
     min-height: 150px;

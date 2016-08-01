@@ -62,7 +62,7 @@
 					<ul class="nav1">
 						<li><a href="index.html">Accueil</a></li>
 						<li><a href="flights-hotels.html.html">Vols</a></li>
-						<li class="active"><a href="hotels.html">Hotels</a>
+						<li><a href="hotels.html">Hotels</a>
 							<ul>
 								<li><a href="hotels.html">Tunisie</a></li>
 								<li><a href="hotels.html">Etranger</a></li>
@@ -72,7 +72,7 @@
 						<li><a href="holidays.html">Voyages</a></li>
 						<li><a href="omra.html">Omra</a></li>
 						<li><a href="trains.html">Voitures</a></li>
-						<li><a href="circuits.html">Circuits</a></li>
+						<li class="active"><a href="circuits.html">Circuits</a></li>
 						<li><a href="deals.html">Thalasso</a></li>
 					</ul>
 					<div class="clearfix"> </div>
@@ -102,86 +102,150 @@
 				<div class="product-grids">
 					<div class="col-md-3 product-left">
 						<div class="h-class">
-							<h5>Catégorie</h5>
+							<h5>Trier par</h5>
 							<div class="hotel-price">
 								<label class="check">
-									<input type="checkbox">
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="starTextLabel">5 étoiles (18)</span>
+									<input type="radio">
+									<span class="starTextLabel">Ville</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
-									<input type="checkbox" checked="checked" data-track="HOT:SR:StarRating:5Star">
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="starTextLabel">4 étoiles (30)</span>
+									<input type="radio">
+									<span class="starTextLabel">Titre</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
-									<input type="checkbox">
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="starTextLabel">3 étoiles (106)</span>
-								</label>
-							</div>
-							<div class="hotel-price">
-								<label class="check">
-									<input type="checkbox">
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="starTextLabel">2 étoiles (78)</span>
-								</label>
-							</div>
-							<div class="hotel-price">
-								<label class="check">
-									<input type="checkbox">
-									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<span class="starTextLabel">1 étoiles (10)</span>
+									<input type="radio">
+									<span class="starTextLabel">Durée</span>
 								</label>
 							</div>
 						</div>
 						<div class="h-class p-day">
-							<h5>Prix par nuit</h5>
+							<h5>Filtrer par prix</h5>
 							<div class="hotel-price">
 								<label class="check">
 									<input type="checkbox" checked="checked" data-track="HOT:SR:StarRating:5Star">
-									<span class="p-day-grid">Moins de $100 (76)</span>
+									<span class="p-day-grid">Moins de $1000</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
 									<input type="checkbox">
-									<span class="p-day-grid">$100 à $200 (132)</span>
+									<span class="p-day-grid">$1000 à $1500</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
 									<input type="checkbox">
-									<span class="p-day-grid">$200 à $300 (223)</span>
+									<span class="p-day-grid">$1500 à $2000</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
 									<input type="checkbox">
-									<span class="p-day-grid">$300 à $400 (84)</span>
+									<span class="p-day-grid">$2000 to $2500</span>
 								</label>
 							</div>
 							<div class="hotel-price">
 								<label class="check">
 									<input type="checkbox">
-									<span class="p-day-grid">plus de $400 (23)</span>
+									<span class="p-day-grid">plus de $2500</span>
 								</label>
 							</div>
 						</div>
+						<div class="h-class">
+							<h5>Destination</h5>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId" checked="checked" data-track="HOT:SR:Area">
+									<span class="p-day-grid">London</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Newyork</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">New Zealand</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Los Angeles</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Sydney</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Agra</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Greece</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Singapore</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="radio" name="hideRegionId"  data-track="HOT:SR:Area">
+									<span class="p-day-grid">Paris</span>
+								</label>
+							</div>
+						</div>
+						<div class="h-class p-day">
+							<h5>Durée</h5>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="checkbox" checked="checked" data-track="HOT:SR:StarRating:5Star">
+									<span class="p-day-grid">1 jours</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="checkbox">
+									<span class="p-day-grid">2 jours</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="checkbox">
+									<span class="p-day-grid">3 jours</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="checkbox">
+									<span class="p-day-grid">4 jours</span>
+								</label>
+							</div>
+							<div class="hotel-price">
+								<label class="check">
+									<input type="checkbox">
+									<span class="p-day-grid">plus de 4 jours</span>
+								</label>
+							</div>
+						</div>
+					
 						</div>
 					<div class="col-md-9 product-right">
 						<div class="product-right-grids">
